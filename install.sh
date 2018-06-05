@@ -12,8 +12,10 @@ curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compos
 
 chmod +x /usr/local/bin/docker-compose
 
-usermod -aG docker donald
+usermod -aG docker dr-docker
 
 git clone https://github.com/aitoradri/moodle.git
 
-cd ~/moodle
+cd /dr-docker/home/moodle
+
+docker-compose up
