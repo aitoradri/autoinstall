@@ -16,6 +16,4 @@ usermod -aG docker donald
 
 git clone https://github.com/aitoradri/moodle.git
 
-docker-compose up
-
-
+cd moodle
