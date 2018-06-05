@@ -16,4 +16,4 @@ usermod -aG docker donald
 
 git clone https://github.com/aitoradri/moodle.git
 
-cd moodle
+cd ~/moodle
